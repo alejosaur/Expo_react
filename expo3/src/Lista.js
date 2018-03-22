@@ -22,12 +22,12 @@ constructor(props) {
     return (
       <div className="App">
       <h1> Hola soy un componente!</h1>
-         {
+        {
             this.props.listado.map((user) => {
 
                   return <Content key={ user.id }
-                                  name={ user.login }
-                                  age={ user.id }
+                                  name={ user.name }
+                                  age={ user.age }
                                    />
             })
           }

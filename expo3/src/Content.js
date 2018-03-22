@@ -20,11 +20,6 @@ class Content extends Component {
     this.setState({ mode });
   }
   
-  componentDidMount() {
-    
-    this.setState({ mode: "Viejo" });
-  }
-  
   render() {
    
     return (
